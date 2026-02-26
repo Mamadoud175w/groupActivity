@@ -1,1 +1,3 @@
 Fast-forward merges: We created additional branches from messy, leaving develop behind. We then made changes to files within the messy branch. We then fast-forward merged the messy branch into the develop branch so the develop branch included the changes from messy.
+Merge Conflict Scenario: One example of a merge conflict that would involve develop and conflict_branch is if you try to change the title of a file, for example “index.html”, in both the develop branch and the conflict branch. If you change the title in the develop branch to “This is our project title”, and you change the title in the conflict_branch to “Our project title”, and then try to stage, commit, and push the changes you will get a merge conflict.
+Non-Merge Conflict Scenario: 
